@@ -394,7 +394,7 @@ What is performance? Recall that we can use metrics such as cumulative return, r
 
 One way to optimize our portfolio while minimizing risk is to optimize the Sharpe ratio of our portfolio. We may do approach optimization by:
 
-1. Providing a function to minimize $f(x) = SR  x (- 1$) (where SR is Sharpe ratio)
+1. Providing a function to minimize $f(x) = -SR  (where SR is Sharpe ratio)
 2. Providing an initial guess for $x$
 3. Calling the optimizer
 
