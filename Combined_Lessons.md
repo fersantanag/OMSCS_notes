@@ -357,6 +357,7 @@ In general, we use an optimizer by:
 ## Convex Problems
 
 **Convex problems** are easiest for the optimizer to solve. These problems are characterized by having a single minima where a line segment drawn between any two points on the graph is always above the graph (does not intersect more than two points).
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/2ae640e3-dd3e-4e82-8ee3-2cc8ab290b6c)
 
 ## Building A Parameterized Model
 
