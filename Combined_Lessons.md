@@ -709,6 +709,7 @@ There are various types of funds a portfolio manager might handle:
   - Only have the ability to buy and sell by agreement
   - Are not required to disclose holdings
   - Are not transparent and may be difficult to liquidate
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/625b62f6-b3a3-40f7-866f-08c11d687930)
 
 ## Liquidity And Capitalization
 
@@ -755,6 +756,8 @@ How would an investor measure how well a hedge fund is doing? They may do so thr
 - Volatility (standard deviation)
 - Risk/reward ratio (Sharpe ratio)
 
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/20b5307d-6801-4af7-957d-32d754732de9)
+
 ## Section Quizzes
 
 ### What Type Of Fund Is It Quiz
@@ -766,6 +769,7 @@ How would an investor measure how well a hedge fund is doing? They may do so thr
 3. FAGIX is a mutual fund
 4. Bridgewater Pure Alpha is a hedge fund
 5. SPLV is an ETF
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/edae3d73-bdfc-4470-a467-6fa9e14ad1d9)
 
 ### Incentives Quiz
 
@@ -774,6 +778,7 @@ How would an investor measure how well a hedge fund is doing? They may do so thr
 1. _Which motivates AUM accumulation_? Both expense ratio and _two and twenty_
 2. _Which motivates profits_? _Two and twenty_ rule
 3. _Which motivates risk taking_? _Two and twenty_ rule since you have to take more risks to make those gains
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/a15a898d-b3a8-4e09-b1be-7e5c02126799)
 
 
 # Lesson 15
@@ -971,6 +976,7 @@ $r_i(t) = \beta_i r_m(t) + \alpha_i(t)$
 Where $\beta_i r_m(t)$ represents market effects on returns (e.g., if the market goes up X percent then the stock will go up Y percent) and $\alpha_i(t)$ represents residual effects (with an expected value of zero although not always zero in practice). The extent to which the market affects a particular stock is represented by $\beta_i$.
 
 Both $\beta_i$ (represented as the slope of the daily return line) and $\alpha_i(t)$ (represented as the y-intercept of the daily return line) are derived from daily returns for a particular stock when compared to an index.
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/0174d880-8d88-49da-bfe6-ab332f30b7b5)
 
 ## CAPM Vs. Active Management
 
@@ -978,6 +984,7 @@ Since the invention of CAPM, there have been two schools of though on the CAPM m
 
 - **Passive investing**: the idea that you should buy an hold since $\alpha_i(t)$ from the CAPM model is random and the expected value is nearly zero in most cases
 - **Active investing**: the idea that you should actively pick stocks as $\alpha_i(t)$ is predictable and the expected value is **not** necessarily random
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/aac3139c-e345-4147-8804-3006d4aae9ab)
 
 ## CAPM For Portfolios
 
@@ -989,6 +996,7 @@ Recall that passive investing CAPM would be different than an active investing C
 
 - Passive CAPM: $r_p(t) = \beta_p r_m(t) + \alpha_p(t)$
 - Active CAPM: $r_p(t) = \beta_p r_m(t) +  \sum_{i} w_i \alpha_i(t)$
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/fefde531-c2d3-4310-8eac-884ed8831911)
 
 ## Implications Of CAPM
 
@@ -1000,6 +1008,7 @@ The implications of CAPM are:
 - Choose low $\beta$ in down markets
 
 However, EMH (Efficient Markets Hypothesis) claims that you cannot predict the market with $\beta$.
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/c1582382-0cc5-4cf2-b548-d7a46d5b3934)
 
 ## Arbitrage Pricing Theory
 
@@ -1008,6 +1017,7 @@ However, EMH (Efficient Markets Hypothesis) claims that you cannot predict the m
 $r_i(t) = \sum_{i} (\beta_i r_m(t)) + \alpha_i(t)$
 
 Where $\beta_i r_m(t)$ represents a particular stock in a particular sector.
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/f897ae37-0991-4fee-a634-d073e11b84b5)
 
 ## Section Quizzes
 
@@ -1021,6 +1031,7 @@ _Given the following scenarios for $\beta$ and $\alpha$, select the best answer_
 
 1. _Which has a higher $\beta$_? ABC, since the slope is steeper
 2. _Which has a higher $\alpha$_? ABC, since the y-intercept is greater
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/70df989f-c38c-43c2-adcf-558510a9ace9)
 
 ### Implications Of CAPM Quiz
 
