@@ -1,4 +1,4 @@
-# Lesson 1
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/0f464cc9-bc2a-4c7f-8353-65fd8cc42f9f)# Lesson 1
 
 In this lesson we will learn about reading and plotting stock data with Python. Why use Python? Python is an optimal tool because we can quickly prototype algorithms with high computational speed. Some features of Python include:
 
@@ -429,6 +429,7 @@ The ML process consists of:
 1. Feeding data into a ML algorithm
 2. Producing a ML model from the ML algorithm
 3. Using the ML model to predict $y$ with observations $x$
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/403668f0-8574-4f24-841e-0fe4ce7501ad)
 
 ## Supervised Regression Learning
 
@@ -503,6 +504,9 @@ Comparing parametric vs. non parametric approach:
 - Non-parametric:
   - Pros: new data can be added easily (no parameters needed - faster training)
   - Cons: have to store all data points (huge data set - slow queries)
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/2f00b140-e8ec-4156-9f80-732747e3712a)
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/4eed5178-3255-4485-a01c-aacd9bd9458d)
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/0f98ec01-5a67-4b05-9efd-ea65cb6b1558)
 
 ## Training And Testing
 
@@ -574,6 +578,7 @@ How do we quantify how well our model fits the data? We may use the **RMSE (root
 $RMSE = \sqrt{\frac{\sum(y_(test) - y_(predict))^2}{N}}\\$
 
 The RMSE tells us how far (on average) the model (prediction) is away from the actual (test) data. It is important to note that the _in-sample_ (training set) RMSE is different than the _out-of-sample_ (testing set) RMSE since the two sets of data are separate in practice.
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/78212340-8264-4aec-9c23-d9a34727f579)
 
 ## Cross Validation
 
@@ -590,10 +595,14 @@ Another metric we may use to evaluate our model is through **correlation**. This
 Correlation may be evaluated using the NumPy method `np.corrcoef()` where the coefficient of correlation may be in a range of -1 to 1 or 0 (no correlation).
 
 Note that the correlation coefficient is **not** related to the slope of the correlation line.
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/4b0ba25f-822c-4d8e-839e-bf0eca576744)
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/ac5e5680-d1a9-467e-9c62-c071385a9d49)
 
 ## Overfitting
 
 **Overfitting** occurs when the in-sample (training set) error is low but the out-of-sample (testing set) error is high. Given a parametric model, if the in-sample error decreases while the out-of-sample error increases, then our model is likely overfitting.
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/9465cce6-dcbb-4ed1-b780-7060d876369d)
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/dc7695c2-4388-47b6-9d78-68a0933ac92d)
 
 ## Section Quizzes
 
@@ -635,6 +644,7 @@ _Given the kNN plots, which depicts the model overfitting_? B, since the in-samp
 2. _Which is better on compute time to train_? kNN
 3. _Which is better on compute time to query_? Linear regression
 4. _Which is better on ease to add new data_? kNN
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/05fcdd64-63ef-4f81-a602-bca83af88020)
 
 
 # Lesson 13
@@ -653,12 +663,15 @@ This question was answered in 2009 following a Netflix 2006 challenge: create a 
 - Less overfitting
 
 These are possible since each learner inherently has their own biases. We may reduce these biases and mitigate overfitting by averaging the outputs of each learner.
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/5591226d-238a-4ab0-9c5d-9c68682664c1)
 
 ## Bootstrap Aggregating (Bagging)
 
 **Bootstrap aggregating (bagging)** may be accomplished by using the **same** learner and training each learner on a different set of the data (taking the data and creating new random _bags_ of data through _bagging_). After training, we average the outputs of each learner. This technique is able reduce bias and overfitting even with the **same** learner due to training on separate data sets and averaging results.
 
 Note: We still want to separate the training _bags_ of data with the testing _bags_ of data.
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/a767628d-b7fd-46be-b278-c634c4fcb576)
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/19f11866-e806-4553-8d55-3efc5ec93488)
 
 ## Boosting
 
@@ -669,6 +682,8 @@ Note: We still want to separate the training _bags_ of data with the testing _ba
 - Training data outside of an RMSE limit will be weighted such that the next learner has a higher chance of being trained with a _bag_ of data consisting of the outlier data points
 
 This process is repeated for all subsequent learners until the last learner and the result is that the average of all learners are _boosted_ in such a way that the output fits the test data more closely.
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/83b77691-2641-443f-af5a-36f09640f3cd)
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/b177b8fd-775c-42c9-b45a-1ca06a837d69)
 
 ## Ensemble Learners: Bagging And Boosting Summary
 
