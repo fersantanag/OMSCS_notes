@@ -322,6 +322,8 @@ The Sharpe ratio can vary widely depending on how frequently you sample. The Sha
 - If sampling daily use `k = (252)^(1/2)` (252 trading days a year)
 - If sampling weekly use `k = (52)^(1/2)`
 - If sampling monthly use `k = (12)^(1/2)`
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/12fb190a-c43f-4311-b304-4e1ace29e929)
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/e58e3a56-fed4-4095-abbd-29e704ed3b9e)
 
 ## Section Quizzes
 
@@ -1011,6 +1013,7 @@ Recall that passive investing CAPM would be different than an active investing C
 
 - Passive CAPM: $r_p(t) = \beta_p r_m(t) + \alpha_p(t)$
 - Active CAPM: $r_p(t) = \beta_p r_m(t) +  \sum_{i} w_i \alpha_i(t)$
+  
 ![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/fefde531-c2d3-4310-8eac-884ed8831911)
 
 ## Implications Of CAPM
