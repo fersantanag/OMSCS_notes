@@ -1084,7 +1084,58 @@ Utilizing CAPM allowed for long-short strategies to emerge.
 
 ## Section Quizzes
 
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/9f85c813-69c4-4fed-99e2-236f575143a8)
+
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/9560d44a-b9d6-4f20-b9d6-f80b3c36c808)
+
+- Let's start by taking a look at stock A. So, market one up 10%, we predicted that A would go up
+one percent over the market and its beta is one. So, we should see a return of about 11%. So,
+we get 11% here and $5.50 here.
+- B is a little bit more tricky. Remember, B has a beta of two. The market went up 10%, so B's
+going to go up 20% minus the one percent we thought it would do relative to the market. So for
+B, the stock price went up 19% but, we had a negative bet there, so we get negative 19% here.
+So, we're going to lose $9.50 on that bet.
+- Now, to compute the totals here, let's do the dollars first. So, we made $5.50 on stock A, but
+we lost $9.50 on stock B, so altogether, we lost $4.
+- Now, when you calculate the total return here, you can't just add these two up and get negative
+eight, because remember, we only had .5 over allocation in each one of these. So, to get the
+total, you multiply this return by .5, that return by .5, and you get negative four. Yes, it's a little
+bit tricky.
+
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/1370f7bd-04c1-4146-94d6-bdb77cb32563)
+
+- Let's run through one more example here just so we get it straight. Let's assume now that the
+market goes down 10%. How does this all work out?
+- Stock A should only go down nine percent, because we think it's going to perform one percent
+over the market and it's beta is one.
+- Stock B is going to go down 20% and minus that one percent that we think is going to go below
+the market. So let's talk B is going to go down 21%.
+- So we're going to lose nine percent or $4.50 on stock A, but we're going to really kick butt on
+stock B. Stock B went down 21%, but remember we shorted it, so we're going to get all
+together $10.50. So all together we're going to win six dollars or six percent.
 ### Two Stock Scenario Quiz
+
+What's the take away here? The take away is even if we have perfect alpha and perfect beta, if
+we're not careful about how we allocate our money, we can still lose.
+- How can we fix this? The CAPM can help.
+
+
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/d126f0ed-1a6d-40e2-b735-2105700bb91a)
+
+- So if you step back a little bit, remember that we arrived at this 1% using information. So we
+have some information about these stocks that lead us to believe one would go up 1% over the
+market, another would go down 1% over the market.
+- On the other hand, we don't really have any knowledge about what's going to happen for the
+market over all. So we have no control over this component. Is there some way that we can
+remove this? Can we make this part equal to 0? If we can do that, then we essentially remove
+market risk from our portfolio. And we preserve this 1% over here.
+- Well, the way to do that is to focus on this part. Remember, this is beta for the portfolio. Can
+we make beta for the portfolio = 0? Or in other words, can we find weights for A and B, such
+that their sum turns out to be 0? What are these two weights so that the overall portfolio beta
+is 0?
+
+
+![image](https://github.com/fersantanag/OMSCS_notes/assets/59957385/8e149d6f-549c-4cd9-a795-2541d2ec9b0b)
 
 _Given information on the two stocks compute the following_:
 
